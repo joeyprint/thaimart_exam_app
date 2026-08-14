@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:thaimart_exam_app/src/routes/coin_list_page/coin_list_page.dart';
 import 'package:thaimart_exam_app/src/widgets/bases/palette_theme.dart';
+import 'package:thaimart_exam_app/src/widgets/coin_card/coin_card.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +20,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: primarySwatch,
         colorScheme: .fromSeed(seedColor: primarySwatch),
       ),
-      home: const MyHomePage(title: 'ThaiMart Homepage'),
+      home: CoinListPage(),
     );
   }
 }
@@ -92,6 +94,7 @@ class _MyHomePageState extends State<MyHomePage> {
           // wireframe for each widget.
           mainAxisAlignment: .center,
           children: [
+            CoinCard(),
             const Text('You have pushed the button this many times:'),
             Text(
               '$_counter',
