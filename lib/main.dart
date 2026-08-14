@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:thaimart_exam_app/src/widgets/bases/paletteTheme.dart';
+import 'package:thaimart_exam_app/src/widgets/bases/palette_theme.dart';
 
 void main() {
   runApp(const MyApp());
