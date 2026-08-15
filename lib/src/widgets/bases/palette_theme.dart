@@ -15,3 +15,5 @@ const MaterialColor primarySwatch = MaterialColor(0xffdf3535, <int, Color>{
 });
 
 final Color primaryColor = primarySwatch.shade500;
+
+final Color textPrimaryColor = Color(0xff303030);
