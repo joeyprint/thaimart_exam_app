@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get/route_manager.dart';
 import 'package:thaimart_exam_app/src/widgets/coin_list_tile/coin_list_tile.dart';
 
 class CoinListPage extends StatelessWidget {
@@ -7,7 +8,10 @@ class CoinListPage extends StatelessWidget {
       appBar: AppBar(title: const Text('Coins')),
       body: ListView(
         children: [
-          CoinListTile(title: 'Bitcoin'),
+          CoinListTile(
+            title: 'Bitcoin',
+            onTap: () => Get.toNamed('/coins/1/details'),
+          ),
           CoinListTile(title: 'Coin'),
           CoinListTile(title: 'XyzCoin'),
           CoinListTile(title: 'Bigcoin'),

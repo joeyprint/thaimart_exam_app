@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:thaimart_exam_app/src/routes/coin_list_page/coin_list_page.dart';
+import 'package:get/route_manager.dart';
+import 'package:thaimart_exam_app/src/routes/routers.dart';
 import 'package:thaimart_exam_app/src/widgets/bases/palette_theme.dart';
 import 'package:thaimart_exam_app/src/widgets/bases/typography_theme.dart';
 
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return GetMaterialApp(
       title: 'ThaiMart',
       theme: ThemeData(
         primaryColor: primaryColor,
@@ -21,7 +22,8 @@ class MyApp extends StatelessWidget {
         colorScheme: .fromSeed(seedColor: primarySwatch),
         textTheme: textTheme,
       ),
-      home: CoinListPage(),
+      initialRoute: '/coins',
+      getPages: routers,
     );
   }
 }
