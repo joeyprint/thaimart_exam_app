@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:thaimart_exam_app/routes/coin_details_page/containers/sparkline_coin.dart';
 import 'package:thaimart_exam_app/widgets/bases/palette_theme.dart';
 import 'package:thaimart_exam_app/widgets/bases/typography_theme.dart';
 
@@ -20,7 +21,7 @@ class CoinDetailsPage extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text("Last price"),
-                    Text('\$12345', style: textTheme.headlineLarge),
+                    Text('\$62961.9567', style: textTheme.headlineLarge),
                     Row(
                       spacing: 8,
                       children: [
@@ -32,6 +33,7 @@ class CoinDetailsPage extends StatelessWidget {
                 ),
               ),
             ),
+            SparklineCoin(),
           ],
         ),
       ),
