@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:thaimart_exam_app/src/widgets/bases/palette_theme.dart';
-import 'package:thaimart_exam_app/src/widgets/bases/typography_theme.dart';
+import 'package:thaimart_exam_app/widgets/bases/palette_theme.dart';
+import 'package:thaimart_exam_app/widgets/bases/typography_theme.dart';
 
 class CoinListTile extends StatelessWidget {
   final String title;

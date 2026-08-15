@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:thaimart_exam_app/src/widgets/bases/palette_theme.dart';
+import 'package:thaimart_exam_app/widgets/bases/palette_theme.dart';
 
 class CoinDetailsPage extends StatelessWidget {
   const CoinDetailsPage({super.key});

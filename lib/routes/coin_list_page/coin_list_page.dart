@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/route_manager.dart';
-import 'package:thaimart_exam_app/src/widgets/coin_list_tile/coin_list_tile.dart';
+import 'package:thaimart_exam_app/routes/coin_list_page/widgets/coin_list_tile.dart';
 
 class CoinListPage extends StatelessWidget {
   Widget build(BuildContext context) {

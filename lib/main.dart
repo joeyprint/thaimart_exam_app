@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/route_manager.dart';
-import 'package:thaimart_exam_app/src/routes/routers.dart';
-import 'package:thaimart_exam_app/src/widgets/bases/palette_theme.dart';
-import 'package:thaimart_exam_app/src/widgets/bases/typography_theme.dart';
+import 'package:thaimart_exam_app/routes/routers.dart';
+import 'package:thaimart_exam_app/widgets/bases/palette_theme.dart';
+import 'package:thaimart_exam_app/widgets/bases/typography_theme.dart';
 
 void main() {
   runApp(const MyApp());
